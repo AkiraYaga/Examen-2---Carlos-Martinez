@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Catamaran:wght@100..900&display=swap');
+
+* {
+ font-size: 100%;
+ font-family: "Catamaran", sans-serif;
+}
+
+
+body{
+	background-color: #252525;
+	font-size: 14px;
+}
+:root{
+	--color-negro:#282d33;
+	--menu-hover:#ec3642;
+	--color-rojo:#ec3642;
+	--fondo-header:#212121;
+	--fondo-footer:#212121;
+	--color-footer:#ccc;
+}
+header{
+	background-color: var(--fondo-header);
+}
+footer{
+	background-color: var(--fondo-footer);
+	color: var(--color-footer);
+	padding: 20px 0;
+}
+footer p{
+	margin-bottom: 5px;
+}
+footer span{
+	color: var(--color-rojo);
+}
+.overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8);
+  }
+
+  .overlay-content img {
+    width: 100px; 
+    margin-bottom: 10px;
+  }
+
+  .overlay-content p {
+    font-size: 18px; 
+    margin-bottom: 10px;
+  }
+
+  .overlay-content button {
+    font-size: 16px; 
+  }
+
+#intro {
+  text-align: center;
+}
+
+.product-card {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  overflow: hidden;
+ background-color: #161616;
+}
+
+.product-card img {
+  max-width: 100%;
+max-height: 100%;
+filter: grayscale(100%);
+}
+
+.text-container {
+  padding: 20px;
+	 flex-grow: 1;
+}
+
+.article {
+  display: flex;
+}
+
+.small-text {
+  font-size: 14px;
+  color: #333;
+}
+
+.small-text{
+	color: #ffffff;
+}
+
+.large-text {
+  font-size: 20px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+hr {
+  margin: 15px 0;
+	color: #ffffff;
+}
+
+.description {
+  font-size: 16px;
+  color: #FFFFFF;
+}
+
+.shop-now-btn {
+  background-color: #ec3642;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-btn:hover {
+  background-color: #92181A;
+}
+
+.info-product {
+  background-color: #161616;
+  color: #fff;
+  padding: 10px
+}
+
+.info-product h2 {
+ font-size: 18px;
+margin-bottom: 5px;
+font-weight: 300;
+}
+
+.info-product p {
+  font-size: 16px;
+  margin: 0;
+color:  #ec3642;
+}
+
+.product img{
+    width: 150%;
+}
